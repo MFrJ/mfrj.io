@@ -18,7 +18,7 @@ const FullBackground = ({ className, children }) => {
       query {
         desktop: file(relativePath: { eq: "brown-and-black.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3344) {
+            fluid(quality: 70, maxWidth: 3344) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }

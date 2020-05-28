@@ -1,0 +1,19 @@
+.scrolled {
+    position: fixed;
+    top: 1.0em;
+    right: 10em;
+    background-color: #1e1a1d;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    height: fit-content;
+    transition: 0.5ms;
+    z-index: 1;
+    border-radius: 10em;
+}
+
+.scrolled .navitem {
+   border-spacing: 10em;
+   border-right: 1px solid #e7ecef;
+   padding-right: 2em;
+}

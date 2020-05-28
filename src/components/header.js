@@ -1,9 +1,10 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navbar from "./navbar"
 
 const Header = ({ siteTitle }) => (
-  <header
+  <header id='header'
     style={{
       background: `#1e1a1d`,
     }}
@@ -26,29 +27,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h5 style={{ textAlign: "right"}}>
-        <Link
-          to="/about"
-          style={{
-            color: `#e7ecef`,
-            textDecoration: `none`,
-          }}
-        >
-          {" "}
-          About
-        </Link>
-
-        <Link
-          to="/projects"
-          style={{
-            color: `#e7ecef`,
-            textDecoration: `none`,
-            margin: `2em`
-          }}
-        >
-          Projects
-        </Link>
-      </h5>
+     <Navbar>
+  
+     </Navbar>
     </div>
   </header>
 )
