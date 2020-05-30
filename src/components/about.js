@@ -12,7 +12,7 @@ import { StyledFullScreenWrapper } from './SharedStyledComponents'
  * @return {*}
  * @constructor
  */
-const FullBackground = ({ className, children }) => {
+const AboutSection = ({ className, children }) => {
   const { desktop } = useStaticQuery(
     graphql`
       query {
@@ -38,7 +38,7 @@ const FullBackground = ({ className, children }) => {
         fluid={imageData}
         backgroundColor={`#040e18`}
         title="Fullscreen Background"
-        id="fullscreenbg"
+        id="about"
         role="img"
         aria-label="Fullscreen Background"
         preserveStackingContext={true}
@@ -50,7 +50,7 @@ const FullBackground = ({ className, children }) => {
 }
 
 //TODO Pass Style as props
-const StyledFullBackground = styled(FullBackground)`
+const About = styled(AboutSection)`
   width: 100%;
   height: 100vh;
   display: flex;
@@ -63,4 +63,4 @@ const StyledFullBackground = styled(FullBackground)`
 
 `
 
-export default StyledFullBackground
+export default About

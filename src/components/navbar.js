@@ -29,7 +29,7 @@ class Navbar extends React.Component{
             }}>
             <h5 style={{ textAlign: "right" }}>
               <Link class="navitem"
-                to="/about"
+                to="/#about"
                 style={{
                   color: `#e7ecef`,
                   textDecoration: `none`,
@@ -41,7 +41,7 @@ class Navbar extends React.Component{
         
               <Link
               class="navitem"
-                to="/projects"
+                to="/#projects"
                 style={{
                   color: `#e7ecef`,
                   textDecoration: `none`,

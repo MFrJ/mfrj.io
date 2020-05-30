@@ -1,17 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
+
 
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-import StyledFullBackground from "../components/FullBackground"
+import About from "../components/about"
+import Projects from "../components/projects";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <StyledFullBackground style={{maxWidth: `100%`, opacity: `0.5`}}>
-      
-    </StyledFullBackground>
+    <About style={{maxWidth: `100%`, opacity: `0.5`}}>
+    </About>
+    <Projects style={{maxWidth: `100%`}}>
+
+    </Projects>
   
   </Layout>
 )
