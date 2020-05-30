@@ -26,6 +26,8 @@
     "styled-components": "^5.1.1",
     "styled-media-query": "^2.1.2",
     "typography": "^0.16.19",
+    "typography-theme-de-young": "^0.16.19",
+    "typography-theme-funston": "^0.16.19",
     "typography-theme-lincoln": "^0.16.19"
   },
   "devDependencies": {
