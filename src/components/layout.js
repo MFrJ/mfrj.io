@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
           margin: `0`,
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
       </div>
     </>
   )

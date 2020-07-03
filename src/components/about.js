@@ -32,6 +32,7 @@ const AboutSection = ({ className, children }) => {
 
   return (
     <StyledFullScreenWrapper>
+      
       <BackgroundImage
         Tag="section"
         className={className}
@@ -44,7 +45,9 @@ const AboutSection = ({ className, children }) => {
         preserveStackingContext={true}
       >
         {children}
+        
       </BackgroundImage>
+     
     </StyledFullScreenWrapper>
   )
 }
@@ -56,10 +59,8 @@ const About = styled(AboutSection)`
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.5;
-  &:hover {
-    opacity: 0.75;
-  }
+  opacity: 0.85;
+  
 
 `
 

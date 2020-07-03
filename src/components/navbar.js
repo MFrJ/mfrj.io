@@ -41,6 +41,18 @@ class Navbar extends React.Component{
         
               <Link
               class="navitem"
+              to="/#"
+              style={{
+                color: `#e7ecef`,
+                textDecoration: `none`,
+                marginLeft: `2em`,
+              }}
+              >
+                Experience
+                </Link>
+
+              <Link
+              class="navitem"
                 to="/#projects"
                 style={{
                   color: `#e7ecef`,
@@ -50,6 +62,11 @@ class Navbar extends React.Component{
               >
                 Projects
               </Link>
+
+              
+              
+              
+              
         
               <Link
                 to="/#contact"

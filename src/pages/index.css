@@ -1,0 +1,12 @@
+.about-title {
+    text-align: center;
+}
+
+.about-background {
+    padding: 1em 5em;
+    background: #fefbff;
+    opacity: 0.9;
+    margin: 0em 5em;
+    border-radius: 3em 5em;
+    
+}
